@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* REUSABLE COMPONENT*/
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+#logo i{
+    display: none;
+}
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+p {
+    color: rgb(139, 139, 139);
+    text-transform: capitalize;
+
+}
+h1{
+    font-size: 75px;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/* HEADER SECTION*/
+#logo .row{
+    width: 100%;
+    margin: auto;
+}
+header img{
+    height: 67px;
+}
+header ul li{
+    padding-right: 10px;
+}
+header ul li a{
+    font-size: 15px;
+
+}
+header ul li .active {
+    color: #fed136;
+
+
+}
+
+header ul li a:hover {
+    color: #fed136;
+    text-decoration: none;
+
+}
+/* HEADER SECTION  */
+#home{
+    background-image: url(pic/header-bg.jpg);
+}
+
+/* ABOUT SECTION*/
+#about {
+    background: rgb(243, 243, 243);
+}
+
+#about p {
+    font-weight: 700;
+    line-height: 20px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 15px;
+}
+
+
+/* TEAM SECTION*/
+
+
+#team img {
+    height: 150px;
+    width: 150px;
+    border: 6px solid #e4e4e4;
+}
+
+
+
+
+
+
+/* SERVICES SECTION  */
+
+
+#services .services_item_img span i {
+
+    border-radius: 50%;
+    font-size: 60px;
+    padding: 20px;
+    color: #fff;
+
+}
+
+/* CONTACT SECTION  */
+#contact .col-md-6 textarea {
+height: 235px;
+
+}
+
+#contact {
+    background-color: #212529;
+    background-image: url("pic//map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contact input::placeholder{
+    opacity: .9;
+}
+
+#contact input{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
